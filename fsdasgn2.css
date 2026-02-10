@@ -1,0 +1,100 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: #f4f6f8;
+color: #333;
+line-height: 1.6;
+}
+
+/* HEADER */
+header {
+background: #4b2bbf;
+color: white;
+padding: 30px;
+text-align: center;
+}
+
+header h1 {
+font-size: 36px;
+}
+
+.contact {
+margin-top: 10px;
+font-size: 14px;
+}
+
+/* HERO */
+.hero {
+display: flex;
+align-items: center;
+gap: 30px;
+padding: 40px;
+background: white;
+}
+
+.hero img {
+width: 220px;
+height: 260px;
+object-fit: cover;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-text h2 {
+color: #4b2bbf;
+margin-bottom: 10px;
+}
+
+/* SECTIONS */
+section {
+padding: 30px 40px;
+}
+
+section h2 {
+margin-bottom: 20px;
+color: #4b2bbf;
+border-bottom: 2px solid #ddd;
+display: inline-block;
+}
+
+/* SKILLS */
+.skills {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.skills li {
+list-style: none;
+background: #e6e0ff;
+padding: 10px 15px;
+border-radius: 20px;
+font-weight: bold;
+}
+
+/* CARDS */
+.card {
+background: white;
+padding: 20px;
+margin-bottom: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+margin-bottom: 5px;
+}
+
+/* FOOTER */
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 30px;
+}
