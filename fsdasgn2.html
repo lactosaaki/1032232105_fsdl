@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sakshi Munde | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fsdasgn2.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Sakshi Munde</h1>
+  <p>Aspiring Software Engineer</p>
+  <div class="contact">
+    <span>Pune, Maharashtra</span> |
+    <span>9422814080</span> |
+    <span>sakshimunde10@gmail.com</span>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <img src="sakshi2.jpeg" alt="Sakshi">
+  <div class="hero-text">
+    <h2>Hello 👋</h2>
+    <p>
+      I am an aspiring software engineer with strong foundations in
+      C++, Python, Web Development, and Embedded Systems.
+      Passionate about learning new technologies and building impactful solutions.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Technical Skills</h2>
+  <ul class="skills">
+    <li>C++</li>
+    <li>Python</li>
+    <li>HTML & CSS</li>
+    <li>Java (Basics)</li>
+    <li>Arduino</li>
+    <li>Git & Version Control</li>
+  </ul>
+</section>
+
+<!-- EDUCATION -->
+<section>
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>MIT-WPU University</h3>
+    <p>B.Tech in Computer Science (2023–Present)</p>
+    <p>Pune, Maharashtra</p>
+  </div>
+
+  <div class="card">
+    <h3>New Era High School</h3>
+    <p>12th Grade – 76%</p>
+    <p>Panchgani, Maharashtra</p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Automated Crop Planter</h3>
+    <p>
+      Arduino-based system using C++ for motor control, distance sensing,
+      and soil humidity monitoring.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Solar Powered Vehicle</h3>
+    <p>
+      Designed a miniature solar-powered vehicle with optimized circuitry
+      and motor control.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Form Validation</h3>
+    <p>Interactive form with client-side validation using JavaScript.</p>
+    <button onclick="openForm()">View Project</button>
+  </div>
+</section>
+
+<!-- FORM SECTION (HIDDEN INITIALLY) -->
+<div id="formSection" class="form-container hidden">
+  <h2>Registration Form</h2>
+
+  <form onsubmit="return validateForm()">
+
+    <label>Name</label>
+    <input type="text" id="name">
+    <small id="nameError" class="error"></small>
+
+    <label>Phone Number</label>
+    <input type="text" id="phone" placeholder="10-digit number">
+    <small id="phoneError" class="error"></small>
+
+    <label>Email</label>
+    <input type="text" id="email">
+    <small id="emailError" class="error"></small>
+
+    <label>Password</label>
+    <input type="password" id="password">
+    <small id="passwordError" class="error"></small>
+
+    <label>Confirm Password</label>
+    <input type="password" id="confirmPassword">
+    <small id="confirmPasswordError" class="error"></small>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sakshi Munde | Portfolio</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
